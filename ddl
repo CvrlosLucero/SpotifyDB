@@ -10,7 +10,6 @@ CREATE TABLE Albumes (
 CREATE TABLE Canciones (
     spotify_id VARCHAR(50) PRIMARY KEY,
     nombre VARCHAR(255) NOT NULL,
-    popularidad INTEGER CHECK (popularidad BETWEEN 0 AND 100),
     es_explicito BOOLEAN NOT NULL,
     duracion_ms INTEGER NOT NULL,
     danceability NUMERIC(3,2) CHECK (danceability BETWEEN 0.0 AND 1.0),
