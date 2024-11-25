@@ -3,8 +3,8 @@ try:
     connection = psycopg2.connect(
         host='localhost',
         user='postgres', # Usuario de la base de datos (Cambiar si es necesario)
-        password='1234567890', # Contraseña de la base de datos (Cambiar si es necesario)
-        database='spotify_db'
+        password='2I@@`7ao*3}*', # Contraseña de la base de datos (Cambiar si es necesario)
+        database='proyecto'
     )
     print("Conexión exitosa")
 
@@ -30,7 +30,7 @@ try:
     cursor = connection.cursor()
     cursor.execute(t_Canciones)
     rows = cursor.fetchall()
-    print('TABLA CANCIONES: spotify_id, nombre, popularidad, es_explicito, duracion_ms, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, time_signature, album_id')
+    print('TABLA CANCIONES: spotify_id, nombre, es_explicito, duracion_ms, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, time_signature, album_id')
     for row in rows:
         print(row)
     print("\n")
