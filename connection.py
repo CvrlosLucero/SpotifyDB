@@ -17,7 +17,18 @@ try:
     t_Snapshots = "select * from Snapshots"
     t_Rankings = "select * from Rankings"
 
-    # Consulta #1: tabla Albumes
+    #Asignación de las consultas a variables
+        
+        # Consulta 1: Relación entre atributos y cambios en el ranking
+    t_consulta1 = "SELECT c.nombre AS cancion, r.pais_codigo, r.ranking_diario, r.movimiento_diario, r.movimiento_semanal, c.danceability, c.energy, c.tempo FROM Rankings r JOIN Canciones c ON r.spotify_id = c.spotify_id WHERE r.movimiento_diario IS NOT NULL AND r.movimiento_diario > 0 OR r.movimiento_semanal IS NOT NULL AND r.movimiento_semanal > 0 ORDER BY r.movimiento_diario DESC, r.movimiento_semanal DESC;"
+        # Consulta 2: Canciones con más de 30 días en el ranking
+    t_consulta2 = "SELECT c.nombre AS cancion, p.nombre AS pais, COUNT(r.fecha_snapshot) AS dias_en_ranking, AVG(r.ranking_diario) AS promedio_ranking FROM Rankings r JOIN Canciones c ON r.spotify_id = c.spotify_id JOIN Paises p ON r.pais_codigo = p.pais_codigo GROUP BY c.nombre, p.nombre HAVING COUNT(r.fecha_snapshot) > 30 ORDER BY dias_en_ranking DESC, promedio_ranking ASC;"
+        # Consulta 3: Popularidad de canciones por país y análisis de atributos
+    t_consulta3 = "SELECT p.nombre AS pais, c.nombre AS cancion, AVG(r.ranking_diario) AS promedio_ranking, MAX(r.movimiento_diario) AS max_movimiento_diario, MAX(r.movimiento_semanal) AS max_movimiento_semanal, AVG(c.danceability) AS promedio_danceability, AVG(c.energy) AS promedio_energy, AVG(c.tempo) AS promedio_tempo FROM Rankings r JOIN Canciones c ON r.spotify_id = c.spotify_id JOIN Paises p ON r.pais_codigo = p.pais_codigo GROUP BY p.nombre, c.nombre ORDER BY promedio_ranking ASC, max_movimiento_diario DESC;"
+        # Consulta 4: Factores que afectan la longevidad en el ranking según atributos.
+    t_consulta4 = "SELECT c.nombre AS cancion, p.nombre AS pais, AVG(c.danceability) AS promedio_danceability, AVG(c.energy) AS promedio_energy, AVG(c.tempo) AS promedio_tempo, COUNT(r.fecha_snapshot) AS dias_en_ranking FROM Rankings r JOIN Canciones c ON r.spotify_id = c.spotify_id JOIN Paises p ON r.pais_codigo = p.pais_codigo GROUP BY c.nombre, p.nombre HAVING COUNT(r.fecha_snapshot) > 15 ORDER BY dias_en_ranking DESC;"
+
+    # Tabla Albumes
     cursor = connection.cursor()
     cursor.execute(t_Albumes)
     rows = cursor.fetchall()
@@ -26,7 +37,7 @@ try:
         print(row)
     print("\n")
 
-    # Consulta #2: tabla Canciones
+    # Tabla Canciones
     cursor = connection.cursor()
     cursor.execute(t_Canciones)
     rows = cursor.fetchall()
@@ -35,7 +46,7 @@ try:
         print(row)
     print("\n")
 
-    # Consulta #3: tabla Artistas
+    # Tabla Artistas
     cursor = connection.cursor()
     cursor.execute(t_Artistas)
     rows = cursor.fetchall()
@@ -44,7 +55,7 @@ try:
         print(row)
     print("\n")
 
-    # Consulta #4: tabla Cancion_Artista
+    # Tabla Cancion_Artista
     cursor = connection.cursor()
     cursor.execute(t_Cancion_Artista)
     rows = cursor.fetchall()
@@ -53,7 +64,7 @@ try:
         print(row)
     print("\n")
 
-    # Consulta #5: tabla Paises
+    # Tabla Paises
     cursor = connection.cursor()
     cursor.execute(t_Paises)
     rows = cursor.fetchall()
@@ -62,7 +73,7 @@ try:
         print(row)
     print("\n")
 
-    # Consulta #6: tabla Snapshots
+    # Tabla Snapshots
     cursor = connection.cursor()
     cursor.execute(t_Snapshots)
     rows = cursor.fetchall()
@@ -71,7 +82,7 @@ try:
         print(row)
     print("\n")
 
-    # Consulta #7: tabla Rankings
+    # Tabla Rankings
     cursor = connection.cursor()
     cursor.execute(t_Rankings)
     rows = cursor.fetchall()
@@ -79,6 +90,44 @@ try:
     for row in rows:
         print(row)
     print("\n")
+
+    # Consulta 1
+    cursor = connection.cursor()
+    cursor.execute(t_consulta1)
+    rows = cursor.fetchall()
+    print('CONSULTA 1: cancion, pais_codigo, ranking_diario, movimiento_diario, movimiento_semanal, danceability, energy, tempo')
+    for row in rows:
+        print(row)
+    print("\n")
+
+    # Consulta 2
+    cursor = connection.cursor()
+    cursor.execute(t_consulta2)
+    rows = cursor.fetchall()
+    print('CONSULTA 2: cancion, pais, dias_en_ranking, promedio_ranking')
+    for row in rows:
+        print(row)
+    print("\n")
+
+    # Consulta 3
+    cursor = connection.cursor()
+    cursor.execute(t_consulta3)
+    rows = cursor.fetchall()
+    print('CONSULTA 3: pais, cancion, promedio_ranking, max_movimiento_diario, max_movimiento_semanal, promedio_danceability, promedio_energy, promedio_tempo')
+    for row in rows:
+        print(row)
+    print("\n")
+
+    # Consulta 4
+    cursor = connection.cursor()
+    cursor.execute(t_consulta4)
+    rows = cursor.fetchall()
+    print('CONSULTA 4: cancion, pais, promedio_danceability, promedio_energy, promedio_tempo, dias_en_ranking')
+    for row in rows:
+        print(row)
+    print("\n")
+
+
 
 # Manejo de errores
 except Exception as error:
