@@ -1,1244 +1,222 @@
-nombre,artista_id
-Lady Gaga,1
-Bruno Mars,2
-ROSÉ,3
-Billie Eilish,4
-Jimin,5
-Oscar Maydon,6
-Fuerza Regida,7
-Gracie Abrams,8
-Sabrina Carpenter,9
-Gigi Perez,10
-Chappell Roan,11
-KAROL G,12
-Benson Boone,13
-The Weeknd,14
-Playboi Carti,15
-Teddy Swims,16
-Feid,17
-DFZM,18
-Ovy On The Drums,19
-J Balvin,20
-Maluma,21
-Ryan Castro,22
-Blessd,23
-Tito Double P,24
-Tyler,25
-The Creator,26
-Daniel Caesar,27
-The Neighbourhood,28
-Peso Pluma,29
-Shaboozey,30
-LISA,31
-Coldplay,32
-Arctic Monkeys,33
-MC Tuto,34
-DJ Glenner,35
-Anitta,36
-Omar Courtz,37
-De La Rose,38
-Myke Towers,39
-benny blanco,40
-JENNIE,41
-Lily-Rose Depp,42
-Hozier,43
-Travis Scott,44
-Gabito Ballesteros,45
-Natanael Cano,46
-Luis R Conriquez,47
-Neton Vega,48
-Linkin Park,49
-Lord Huron,50
-Ariana Grande,51
-Djo,52
-Post Malone,53
-Morgan Wallen,54
-FloyyMenor,55
-Cris Mj,56
-Artemas,57
-Mariah Carey,58
-The Goo Goo Dolls,59
-Kabza De Small,60
-Vigro Deep,61
-DJ Maphorisa,62
-Scotts Maphuma,63
-Young Stunna,64
-Blaq Major,65
-BLESS THE GENTLEMAN,66
-DJ KAP,67
-Mthandeni SK,68
-MaWhoo,69
-Mr Pilato,70
-Ego Slimflow,71
-Tebogo G Mashego,72
-SJE Konka,73
-Focalistic,74
-CowBoii,75
-Caiiro,76
-Ami Faku,77
-Dlala Thukzin,78
-Zeh McGeba,79
-MK Productions,80
-Casswell P,81
-Nobuhle,82
-Kharishma,83
-Ba Bethe Gashoazen,84
-2Point1,85
-BelloM,86
-Epic DJ,87
-DJ Seneath,88
-X-Morizo,89
-Felo Le Tee,90
-Thabza Tee,91
-Djy Biza,92
-Blacko SA,93
-Mellow & Sleazy,94
-Usimamane,95
-Sjava,96
-Wanitwa Mos,97
-Nkosazana Daughter,98
-Master KG,99
-Big Zulu,100
-Zee Nxumalo,101
-Cyfred,102
-Mawelele,103
-Kwesta,104
-Bassie,105
-M-Touch,106
-Ranger,107
-Amaza,108
-LeeMcKrazy,109
-Tman Xpress,110
-DoouShii,111
-Tycoon,112
-Sly,113
-Dladla Mshunqisi,114
-Goldmax,115
-TNK MusiQ,116
-Seun1401,117
-The Exclusive SA,118
-Kabelo Sings,119
-Bontle Smith,120
-2woshort,121
-Stompiiey,122
-Khathapillar,123
-Sol Phenduka,124
-Smash SA,125
-Kamoh Xaba,126
-Lwah Ndlunkulu,127
-Funky Qla,128
-Mjolisi,129
-Mnqobi yazo,130
-Sminofu,131
-Eltee,132
-Novatron,133
-Umafikizolo,134
-Umashotana,135
-Msongi,136
-Cici,137
-Sir Trill,138
-Dot Mega,139
-Q Twins,140
-Uncle Waffles,141
-Royal MusiQ,142
-OHP Sage,143
-Pcee,144
-Officixl Rsa,145
-Danny Shades,146
-Mshinwemali,147
-Shenge wasehlalankosi,148
-Mthunzi,149
-Sizwe Alakine,150
-Umthakathi Kush,151
-Aymos,152
-Mas Musiq,153
-Pabi Cooper,154
-Thebuu,155
-Lajere man,156
-DJ DADAMAN,157
-Tyler ICU,158
-Visca,159
-Ceeka RSA,160
-Sjavasdadeejayj,161
-Al xapo,162
-DJ Stokie,163
-Zee_nhle,164
-Sobzeen,165
-Faith Strings,166
-Lawd Weezy,167
-TO Starquality,168
-Chley,169
-Bandros,170
-Kelvin Momo,171
-Mr. Maker,172
-Makhadzi Entertainment,173
-Dr Skaro,174
-Babethe Gashoazen,175
-Iyanya,176
-Prince Benza,177
-015 MusiQ & Van City MusiQ,178
-Veyane,179
-Babalwa M,180
-Stixx,181
-Nvcho,182
-GloRilla,183
-Sexyy Red,184
-Lil Wayne,185
-Teezo Touchdown,186
-Lola Young,187
-Zach Bryan,188
-Kacey Musgraves,189
-ScHoolboy Q,190
-Santigold,191
-Noah Kahan,192
-Kali Uchis,193
-Kendrick Lamar,194
-The Marías,195
-Tommy Richman,196
-The Kid LAROI,197
-Wham!,198
-ERNEST,199
-Gunna,200
-fallen777angel,201
-OSTY,202
-Klavdia Petrivna,203
-FRIENDLY THUG 52 NGG,204
-HOMINID,205
-CØV3R1st,206
-FORTUNA 812,207
-Wellboy,208
-Parfeniuk,209
-Domiy,210
-Okean Elzy,211
-shadowraze,212
-KRBK,213
-Poshlaya Molly,214
-SadSvit,215
-СТРУКТУРА ЩАСТЯ,216
-MONATIK,217
-кис-кис,218
-fleurnothappy,219
-DOROFEEVA,220
-LEBIGA,221
-KRISTIEE,222
-mapt0v,223
-Ariis,224
-zhanulka,225
-CHEEV,226
-Charli xcx,227
-Artem Pivovarov,228
-OKS,229
-Геля Зозуля,230
-Adam,231
-FACE,232
-Violetta Sokolova,233
-Kalush Orchestra,234
-ENINA,235
-V,236
-BABYMONSTER,237
-aespa,238
-邱軍,239
-Jay Chou,240
-理想混蛋,241
-ILLIT,242
-TZUYU,243
-G-DRAGON,244
-Firdhaus,245
-DIOR 大穎,246
-Jin,247
-KATSEYE,248
-高爾宣 OSN,249
-Patrick Brasca,250
-Amazing Show,251
-KISS OF LIFE,252
-陳華,253
-Lee Young Ji,254
-D.O.,255
-LE SSERAFIM,256
-Silence Wang,257
-單依純,258
-EggPlantEgg,259
-颜人中,260
-Jung Kook,261
-Latto,262
-ZICO,263
-SEVENTEEN,264
-DJ Khaled,265
-卢卢快闭嘴,266
-(G)I-DLE,267
-NewJeans,268
-Ashin Chen,269
-Dedublüman,270
-Aleyna Tilki,271
-Ati242,272
-Melike Şahin,273
-Era7capone,274
-Batuflex,275
-Narco,276
-BLOK3,277
-Afra,278
-NASTEISHA,279
-Semicenk,280
-Canbay & Wolker,281
-ElMusto,282
-Organize,283
-Bengü,284
-Simge,285
-Can Kazaz,286
-Yusuf Güney,287
-Jeff Redd,288
-Emir Can İğrek,289
-Nazan Öncel,290
-Yalın,291
-Doğu Swag,292
-Göksel,293
-Lvbel C5,294
-AKDO,295
-Heijan,296
-Muti,297
-Tuğçe Kandemir,298
-Gülşen,299
-Murat Boz,300
-Emre Fel,301
-Murat Dalkılıç,302
-M Lisa,303
-Cocktail,304
-Q Flure,305
-ROSALÍA,306
-Jack Harlow,307
-PP Krit,308
-TEN,309
-Violette Wautier,310
-Lipta,311
-Mirrr,312
-THE TOYS,313
-NONT TANONT,314
-PUN,315
-fellow fellow,316
-guncharlie,317
-Ink Waruntorn,318
-Paper Planes,319
-JOEY PHUWASIT,320
-YEW,321
-Jeff Satur,322
-เล็กสเร็น,323
-BOWKYLION,324
-ASIA7,325
-AYLA's,326
-No One Else,327
-Polycat,328
-Three Man Down,329
-Musketeers,330
-BUS,331
-Agust D,332
-MEYOU,333
-ATL Jacob,334
-Engel Montaz,335
-Kuv507,336
-Latinnites Music,337
-Aventura,338
-Grupo Frontera,339
-Grupo Firme,340
-Maisak,341
-SOG,342
-Bad Bunny,343
-Julión Álvarez y su Norteño Banda,344
-Kapo,345
-Carin Leon,346
-Rvssian,347
-Rauw Alejandro,348
-Ayra Starr,349
-Plan B,350
-Calle 24,351
-Chino Pacas,352
-Young Miko,353
-Don Omar,354
-Lyanno,355
-Brray,356
-Junior H,357
-Zion,358
-Jory Boy,359
-Ken-Y,360
-Tony Dize,361
-Romeo Santos,362
-Drake,363
-Viktor Sheen,364
-Saul,365
-SIMILIVINLIFE,366
-Yzomandias,367
-Nik Tendo,368
-Hard Rico,369
-Lil Buca Near,370
-Pil C,371
-Luca Brassi10x,372
-Separ,373
-Trabo,374
-Peter Pann,375
-Zayo,376
-Rytmus,377
-Jerry Lee,378
-P T K,379
-Ektor,380
-Crosso,381
-Tisci,382
-Dano Kapitán,383
-Shimmi,384
-GABRIELL,385
-Ndotz,386
-Dollar Prync,387
-Disturbed,388
-CYRIL,389
-Calin,390
-Call Dominika,391
-keshi,392
-Addison Rae,393
-Taylor Swift,394
-Regina Song,395
-One Direction,396
-IVE,397
-David Guetta,398
-*NSYNC,399
-Molly Sandén,400
-Victor Leksell,401
-Yasin,402
-Asme,403
-Shiro,404
-Miriam Bryant,405
-BoBa,406
-Malik Dalasi,407
-Humlan Djojj,408
-Josefine Götestam,409
-Y4ska,410
-Jireel,411
-ROMANOS,412
-Bolaget,413
-Soppgirobygget,414
-Babblarna,415
-Dizzy,416
-23,417
-Prilla Generalen,418
-Sarettii,419
-Adel,420
-Dani M,421
-Miss Li,422
-Dasha,423
-Purple Disco Machine,424
-Benjamin Ingrosso,425
-Nile Rodgers,426
-Shenseea,427
-25,428
-Philippe,429
-Fu3go,430
-Myles Smith,431
-LOAM,432
-FRÖKEN SNUSK,433
-ADAAM,434
-Trobi,435
-Hooja,436
-Bee Remix,437
-umiy,438
-Hassan El Rassam,439
-Nasrat Al Bader,440
-Ayed,441
-Saif Amer,442
-Kstr,443
-Qaed Helmy,444
-74 Original Suppa,445
-DEE PRODUCTION,446
-Sabah Mahmod,447
-Aws Al Saber,448
-Cigarettes After Sex,449
-Tayseer Al Safeer,450
-2KE,451
-808iuli,452
-Mitski,453
-Ogryzek,454
-Astknan Maghribi,455
-Odetari,456
-TV Girl,457
-Lil Tecca,458
-Theo Rose,459
-Dani Mocanu,460
-Mgk666,461
-YNY Sebi,462
-Bogdan DLP,463
-Babasha,464
-Ministerul Manelelor,465
-Iuly Neamtu,466
-Manele Mentolate,467
-IDK,468
-candyboii,469
-RAVA,470
-Gya,471
-Denis Ramniceanu,472
-Johny Romano,473
-Sami G,474
-Claudia Puican,475
-andrei,476
-DZWS,477
-BEN,478
-Tzanca Uraganu,479
-Sheik,480
-Karmen,481
-NOUA UNSPE,482
-M.G.L.,483
-Erika Isac,484
-Don Toliver,485
-Alex Botea,486
-Petre Stefan,487
-Dhali,488
-Oscar,489
-Nutu,490
-Tiago PZK,491
-Ke Personajes,492
-Valentino Merlo,493
-The La Planta,494
-Duki,495
-J Abdiel,496
-Yan Block,497
-iZaak,498
-Jay Wheeler,499
-Lalo Y Los Descalzos,500
-Grelo,501
-Los Ángeles Azules,502
-Emilia,503
-JHAYCO,504
-Anuel AA,505
-Big One,506
-FMK,507
-Shakira,508
-Banda Tava'i Oficial,509
-Jorge Acosta,510
-Arcángel,511
-Daddy Yankee,512
-Zion & Lennox,513
-Farruko,514
-Wisin,515
-Trueno,516
-Quevedo,517
-Plutonio,518
-PEDRO SAMPAIO,519
-Marina Sena,520
-Mizzy Miles,521
-Van Zee,522
-Bispo,523
-DJ TOPO,524
-Seu Jorge,525
-Mc Leozin,526
-MC G15,527
-Miguel Luz,528
-Gasparzinho,529
-MC Meno K,530
-Dillaz,531
-Richie Campbell,532
-FRANKIEONTHEGUITAR,533
-Adam Port,534
-Stryv,535
-Keinemusik,536
-Orso,537
-Malachiii,538
-HUGEL,539
-Topic,540
-Arash,541
-Daecolm,542
-Bluay,543
-Julinho Ksd,544
-MC Marks,545
-MC Ryan SP,546
-MC Jvila,547
-MC Bruno MS,548
-Mc Magal,549
-Aaron Modesto,550
-MC Kevin o Chris,551
-Dj Nk Da Serra,552
-Mc Magrinho,553
-MC Cebezinho,554
-DJ Oreia,555
-Love Funk,556
-Mc Kako,557
-Slow J,558
-Matuê,559
-Mc J Mito,560
-Kaio Viana,561
-DJ Borest,562
-WIU,563
-Luísa Sonza,564
-KayBlack,565
-Mata,566
-Hilary Incognito,567
-FourNine,568
-p3,569
-Roxie Węgiel,570
-Kizo,571
-Bletka,572
-Szpaku,573
-Leśny,574
-SVM!R,575
-Kleks,576
-Sobel,577
-sanah,578
-kuqe 2115,579
-francis,580
-Kaz Bałagane,581
-Oskar83,582
-bambi,583
-FUJU,584
-Def Jam World Tour,585
-Kinny Zimmer,586
-Kaptur,587
-Jonatan,588
-Gibbs,589
-Kubi Producent,590
-MODELKI,591
-Vłodarski,592
-Fukaj,593
-Chivas,594
-Livka,595
-Lucassi,596
-Wiktor Dyduła,597
-Deemz,598
-Oki,599
-Kaśka Sochacka,600
-Tymek,601
-Urbanski,602
-stickxr,603
-charlie moncler,604
-BL3SS,605
-CamrinWatsin,606
-bbyclose,607
-Young Leosia,608
-Jacuś,609
-Guzior,610
-Favst,611
-PG$,612
-Louis Villain,613
-Budda,614
-730 Huncho,615
-Malik Montana,616
-Kazior,617
-GENZIE,618
-Daria Zawiałow,619
-PRO8L3M,620
-Sylwia Grzeszczak,621
-Opał,622
-4Money,623
-Anuv Jain,624
-Maanu,625
-Annural Khalid,626
-Faheem Abdullah,627
-Rauhan Malik,628
-Amir Ameer,629
-AUR,630
-Zeeshan Ali,631
-Yo Yo Honey Singh,632
-Sachet-Parampara,633
-Parampara Tandon,634
-Kausar Munir,635
-Aditya Rikhari,636
-Diljit Dosanjh,637
-AP Dhillon,638
-Karan Aujla,639
-Ikky,640
-Sachin-Jigar,641
-Madhubanti Bagchi,642
-Divya Kumar,643
-Amitabh Bhattacharya,644
-Hasan Raheem,645
-Umair,646
-Talwiinder,647
-Jevin Gill,648
-Talha Anjum,649
-Badshah,650
-Raj Ranjodh,651
-Mxrci,652
-Shubh,653
-Ali & Shjr,654
-Ali Raza,655
-Shajjar Hussain,656
-Juss,657
-MixSingh,658
-Abdullah Maharvi,659
-Prabh Singh,660
-Jay Trak,661
-Rooh Sandhu,662
-Gurinder Gill,663
-Intense,664
-Ram Sampath,665
-Arijit Singh,666
-Prashant Pandey,667
-Sultaan,668
-Preston Pablo,669
-Bilal Saeed,670
-Avvy Sra,671
-Jaani,672
-Abdul Hannan,673
-Rovalio,674
-Bir,675
-Dhanju,676
-thiarajxtt,677
-Josh Brar,678
-Sia,679
-Greg Kurstin,680
-Taimour Baig,681
-Raffey Anwar,682
-Young Stunners,683
-Talhah Yunus,684
-Vishal Mishra,685
-Raj Shekhar,686
-Danny,687
-Sagar,688
-Bayaan,689
-Dionela,690
-Jay R,691
-Maki,692
-Robledo Timido,693
-yung kai,694
-ALLMO$T,695
-Up Dharma Down,696
-TJ Monterde,697
-KZ Tandingan,698
-Arthur Nery,699
-Cup of Joe,700
-Janine,701
-Over October,702
-NOBITA,703
-Adie,704
-Janine Berdin,705
-gins&melodies,706
-Hev Abi,707
-H.E.R.,708
-The Script,709
-Eliza Maturan,710
-Realest Cram,711
-CK YG,712
-Calein,713
-Parokya Ni Edgar,714
-Rob Deniel,715
-Orange & Lemons,716
-James Reid,717
-Nick Jonas,718
-Tinashe,719
-La Única Tropical,720
-LOUKI,721
-Boza,722
-ELENA ROSE,723
-Pascal,724
-Milo j,725
-Taiu,726
-Yami Safdie,727
-Lasso,728
-Yandel,729
-Manuel Turizo,730
-Nanpa Básico,731
-Beéle,732
-W Sound,733
-Valentino GRM,734
-SMILE BEATS,735
-BARBEL,736
-Nerry Money,737
-LH,738
-Robi Guid,739
-Sech,740
-Lh Da Produzza,741
-Key-Key,742
-Ozuna,743
-Elty,744
-Don Pablo Mures,745
-El Yeyo PP,746
-Danny Ocean,747
-JEYSON,748
-Josuan,749
-Fleetwood Mac,750
-Otis Redding,751
-Creedence Clearwater Revival,752
-Chase & Status,753
-Stormzy,754
-Journey,755
-Red Hot Chili Peppers,756
-The Chainsmokers,757
-Crowded House,758
-Vance Joy,759
-The Doobie Brothers,760
-Chris Stapleton,761
-Marstein,762
-Annika,763
-Golfklubb,764
-Bausa,765
-Pasha,766
-Problembarn,767
-Ballinciaga,768
-DJ MøMø,769
-Kjartan Lauritzen,770
-Aiba,771
-Sleiken,772
-404,773
-Roc Mul,774
-Roc Boyz,775
-Ari Bajgora,776
-Kaja Gunnufsen,777
-Kulturaften,778
-DJ VLADI,779
-KNEKT,780
-Ane Norum Kvistad,781
-BlimE!,782
-Alex Warren,783
-Metropolen,784
-Noano,785
-Ronnie Flex,786
-Yves Berendse,787
-Emma Heesters,788
-Hekje31,789
-JayKoppig,790
-Dior,791
-J.FIZ,792
-Ksix,793
-Lost Frequencies,794
-Tom Odell,795
-Hannah Mae,796
-MAKSIM,797
-Robert van Hemert,798
-Roxy Dekker,799
-Donnie,800
-Marco Schuitmaker,801
-Turfy Gang,802
-Russo,803
-Frenna,804
-LUNA,805
-Broederliefde,806
-Racoon,807
-Mensa,808
-SRNO,809
-Pommelien Thijs,810
-MEAU,811
-Froukje,812
-S10,813
-Yade Lauren,814
-Mula B,815
-Milolaathetlukken,816
-Jonna Fraser,817
-Mark Ambor,818
-Kleine John,819
-Yxng Le,820
-KM,821
-Little Simz,822
-Burna Boy,823
-Elyanna,824
-TINI,825
-Marshmello,826
-Kane Brown,827
-Antoon,828
-Lil Kleine,829
-Kraantje Pappie,830
-ADF Samski,831
-Morat,832
-Juanes,833
-Vicente Fernández,834
-Davido,835
-YG Marley,836
-Bnxn,837
-Rema,838
-Ayo Maff,839
-Smur Lee,840
-ODUMODUBLVCK,841
-Shallipopi,842
-Fido,843
-Wizkid,844
-Brent Faiyaz,845
-FOLA,846
-Hyce,847
-BoyPee,848
-Brown Joel,849
-Young Jonn,850
-Asake,851
-Zerrydl,852
-Outsyd DJ,853
-Famous Pluto,854
-Outsyd Eddie,855
-Tega Boi Dc,856
-Fireboy DML,857
-Olamide,858
-Shoday,859
-Darkoo,860
-Seyi Vibez,861
-Tml Vibez,862
-Nasboi,863
-Chike,864
-Kvng Vinci,865
-Lasmid,866
-Ruger,867
-Muyeez,868
-Zinoleesky,869
-Naira Marley,870
-Black Sherif,871
-Lil Kesh,872
-Kizz Daniel,873
-Khaid,874
-Vicoka,875
-Omah Lay,876
-Clayrocksu,877
-Tiwa Savage,878
-Russ,879
-FAVE,880
-Insomniacks,881
-Bernadya,882
-Ernie Zakri,883
-Ade Govinda,884
-Noh Salleh,885
-Hyper Act,886
-Anggi Marito,887
-Nadhif Basalamah,888
-Henry Moodie,889
-Fabio Asher,890
-Dhruv,891
-James Arthur,892
-Anne-Marie,893
-Lyodra,894
-SZA,895
-Judika,896
-Victor Mendivil,897
-Estevan Plazola,898
-Clave Especial,899
-Bellakath,900
-El Malilla,901
-El Bogueto,902
-Andres Castillo,903
-La Dinastia,904
-Riky Produce,905
-LEGADO 7,906
-Kane Rodriguez,907
-La Receta,908
-Jasiel Nuñez,909
-emmanuellcortess_,910
-La Arrolladora Banda El Limón De Rene Camacho,911
-ElGrandeToto,912
-Madd,913
-SKY,914
-Lazaro,915
-Xcep,916
-Smallx,917
-Baby Gang,918
-Figoshin,919
-Shobee,920
-Snor,921
-Khali,922
-Zamdane,923
-Tawsen,924
-Ayoub Anbaoui,925
-Draganov,926
-Bilel Tacchini,927
-Delarue,928
-Morad,929
-Douaa Lahyaoui,930
-Jul,931
-Lbenj,932
-7-Toun,933
-LFERDA,934
-Nouamane Belaiachi,935
-Hassa1,936
-Flack,937
-Ali S,938
-L'morphine,939
-Hamza,940
-Niro,941
-Stormy,942
-Mons,943
-Gianluca Gallo,944
-A$AP Rocky,945
-Imogen Heap,946
-Clams Casino,947
-Fiņķis,948
-Patrisha,949
-Deniss,950
-Sudrabu Sirds,951
-Singapūras Satīns,952
-Wiesulis,953
-sangvn,954
-OLAS,955
-Esmeralda,956
-heywhosthatkid,957
-Lil Peep,958
-XXXTENTACION,959
-Snow Strippers,960
-PinkPantheress,961
-A-Europa,962
-GIMS,963
-DYSTINCT,964
-SDM,965
-BIANCO VELEZ,966
-DIMA & LALO,967
-Sevdaliza,968
-Pabllo Vittar,969
-Yseult,970
-Bouss,971
-Gazo,972
-Tiakola,973
-Genezio,974
-Prototype,975
-Ryflo,976
-Oskoow,977
-Joé Dwèt Filé,978
-Guy2Bezbar,979
-Miley Cyrus,980
-KeBlack,981
-Franglish,982
-Adomas Vyšniauskas,983
-Jessica Shy,984
-Free Finga,985
-Rokas,986
-Monika LIU,987
-GJan,988
-Rokas Yan,989
-Evgenya Redko,990
-Furytto,991
-Milana,992
-Jovani,993
-Ledi Ais,994
-Vaidas Baumila,995
-The Adventures Of Stevie V,996
-Norbertas,997
-OG Version,998
-Justinas Jarutis,999
-Bakr,1000
-Duman,1001
-Asik,1002
-IL'HAN,1003
-Darkhan Juzz,1004
-Ulukmanapo,1005
-Sadraddin,1006
-Қанат Ерлан,1007
-Kazybek Kuraiysh,1008
-akimmmich,1009
-Turar,1010
-Nuricko,1011
-Bonapart,1012
-DJ ANXVAR,1013
-MC LONE,1014
-BALLER,1015
-Patron Hanzo,1016
-Moldanazar,1017
-LUCAVEROS,1018
-6ELLUCCI,1019
-Steve Lacy,1020
-ARO,1021
-Дайте танк (!),1022
-DAY6,1023
-Loco,1024
-fromis_9,1025
-Sofia Carson,1026
-QWER,1027
-d4vd,1028
-AKMU,1029
-Lim Young Woong,1030
-Mrs. GREEN APPLE,1031
-AKASAKI,1032
-Creepy Nuts,1033
-MISAMO,1034
-OFFICIAL HIGE DANDISM,1035
-back number,1036
-Kocchi no Kento,1037
-Da-iCE,1038
-Sonoko Inoue,1039
-Omoinotake,1040
-Vaundy,1041
-King Gnu,1042
-Yuuri,1043
-tuki.,1044
-Number_i,1045
-Koresawa,1046
-YOASOBI,1047
-XG,1048
-ヨルシカ,1049
-GEMN,1050
-中島健人,1051
-Tatsuya Kitani,1052
-Kenshi Yonezu,1053
-ZUTOMAYO,1054
-Mega Shinnosuke,1055
-Ado,1056
-Simba La Rue,1057
-FT Kings,1058
-Sick Luke,1059
-Olly,1060
-Angelina Mango,1061
-JVLI,1062
-Alfa,1063
-Cesare Cremonini,1064
-Achille Lauro,1065
-Lele Blade,1066
-Geolier,1067
-Dele,1068
-Poison Beatz,1069
-ANNA,1070
-Niky Savage,1071
-Lazza,1072
-Kid Yugi,1073
-Sal Da Vinci,1074
-Pinguini Tattici Nucleari,1075
-Takagi & Ketra,1076
-Dat Boi Dee,1077
-Astro,1078
-Tananai,1079
-Shiva,1080
-Ghali,1081
-Elodie,1082
-Tiziano Ferro,1083
-Sillyelly,1084
-Le-one,1085
-Christian Liguori,1086
-Babywyne,1087
-Tedua,1088
-Annalisa,1089
-Tony Effe,1090
-Gaia,1091
-Lil Baby,1092
-Night Skinny,1093
-Tony Boy,1094
-Capo Plaza,1095
-Omega,1096
-Higashi,1097
-Roberto Ferrante,1098
-Artie 5ive,1099
-Glocky,1100
-Ultimo,1101
-Holden,1102
-mew,1103
-Sfera Ebbasta,1104
-Mahmood,1105
-Emma,1106
-CoCo,1107
-Geeno,1108
-D-Ross,1109
-Ornella Vanoni,1110
-Jack Sani,1111
-Nerissima Serpe,1112
-Papa V,1113
-Herra Hnetusmjör,1114
-ICEGUYS,1115
-Aron Can,1116
-Hafdís Huld,1117
-Birnir,1118
-Izleifur,1119
-Daniil,1120
-HubbaBubba,1121
-Þórunn Antonía,1122
-Floni,1123
-ClubDub,1124
-BRÍET,1125
-Luigi,1126
-Ingi Bauer,1127
-PATR!K,1128
-Shilpa Rao,1129
-Anirudh Ravichander,1130
-Ramajogayya Sastry,1131
-Haricharan,1132
-Shweta Mohan,1133
-G. V. Prakash,1134
-Karthik Netha,1135
-Pawan Singh,1136
-Simran Choudhary,1137
-Dhanda Nyoliwala,1138
-Malaysia Vasudevan,1139
-Deepthi Suresh,1140
-Yugendran Vasudevan,1141
-Mithoon,1142
-Pitbull,1143
-Tanishk Bagchi,1144
-Pritam,1145
-Neeraj Shridhar,1146
-Dhrruv Yogi,1147
-Sameer Anjaan,1148
-Mohit Chauhan,1149
-Kinza Hashmi,1150
-Tulsi Kumar,1151
-Lijo George-Dj Chetas,1152
-Shreyas Puranik,1153
-Siddharth - Garima,1154
-Mitraz,1155
-Sachet Tandon,1156
-Priya Saraiya,1157
-Varun Jain,1158
-Atif Aslam,1159
-Raghav Chaitanya,1160
-Indraneel,1161
-Sohail Sen,1162
-Monali Thakur,1163
-Gurnazar,1164
-Chet Singh,1165
-Aparshakti Khurana,1166
-Savi Kahlon,1167
-Mohammad Faiz,1168
-Kumaar,1169
-Shreya Ghoshal,1170
-Tochi Raina,1171
-Sai Abhyankkar,1172
-Sai Smriti,1173
-Jasleen Royal,1174
-Dulquer Salmaan,1175
-Darshan Raval,1176
-Jonita Gandhi,1177
-Rochak Kohli,1178
-Gurpreet Saini,1179
-Static,1180
-ששון איפרם שאולוב,1181
-Osher Cohen,1182
-סטילה,1183
-Ness,1184
-Omer Adam,1185
-Noa Kirel,1186
-אודיה,1187
-Jasmin Moallem,1188
-שירז אברהם,1189
-E-Z,1190
-ליעד מאיר,1191
-Peer Tasi,1192
-מ',1193
-ילד.,1194
-Itay Levi,1195
-ShrekDiMC,1196
-Eden Hason,1197
-Kfir Tsafrir,1198
-Hatikva 6,1199
-Tuna,1200
-Full Trunk,1201
-Jimbo J,1202
-Hadag Nahash,1203
-Shai Tsabari,1204
-Ravid Plotnik,1205
-Danny Robas,1206
-Sonny Fodera,1207
-Jazzy,1208
-D.O.D,1209
-Michael Marcagi,1210
-cassö,1211
-RAYE,1212
-D-Block Europe,1213
-Richy Mitch & The Coal Miners,1214
-For Revenge,1215
-.Feast,1216
-Adrian Khalif,1217
-Juicy Luicy,1218
-Last Child,1219
-Rio Clappy,1220
-Dudy Oris,1221
-Nyoman Paul,1222
-Mahalini,1223
-Suara Kayu,1224
-Feby Putri,1225
-Nadin Amizah,1226
-Vierra,1227
-Fiersa Besari,1228
-Hindia,1229
-Sal Priadi,1230
-Stereo Wall,1231
-Nidji,1232
-Meiska,1233
-Tulus,1234
-Hal,1235
-Virgoun,1236
-Audy,1237
-Boyz II Men,1238
-Vionita,1239
-Batas Senja,1240
-Yovie & Nuno,1241
-Tiara Andini,1242
-Mawar de Jongh,1243
+artista_id;nombre
+1;Victor Mendivil
+2;Billie Eilish
+3;Milo j
+4;The La Planta
+5;Bruno Mars
+6;Ã‘ejo
+7;JoshuaLife
+8;Tuti DJ
+9;Young Miko
+10;Martinwhite
+11;Judeline
+12;Jimin
+13;Axl Boore
+14;Jin
+15;Emirsito
+16;Maria Becerra
+17;Cristian Di Marco
+18;Kuv507
+19;Jombriel
+20;ECKO
+21;Oscar Maydon
+22;Lady Gaga
+23;Ovy On The Drums
+24;Galee Galee
+25;Anuel AA
+26;Luck Ra
+27;Lucky Brown
+28;Pierre La Voz
+29;Shakira
+30;Prod Millones
+31;Pharrell Williams
+32;TINI
+33;Ponte Perro
+34;benny blanco
+35;ArcÃ¡ngel
+36;BeÃ©le
+37;Membrillito
+38;Calle 24
+39;Manuel Turizo
+40;Angela Torres
+41;Jere Klein
+42;DJ Lalo
+43;Marconi Impara
+44;Omar Courtz
+45;Natanael Cano
+46;ELENA ROSE
+47;Airbag
+48;Un Poco de Ruido
+49;Omar Varela
+50;Ganggy
+51;Carin Leon
+52;BM
+53;LATIN MAFIA
+54;Adolescent's Orquesta
+55;Neton Vega
+56;Luis Alfonso
+57;Rvssian
+58;Gittobeatz
+59;Lalo Rodriguez
+60;Bryant Myers
+61;Ãngela Aguilar
+62;Cris Mj
+63;Grupo Niche
+64;ATL Jacob
+65;Andres Castillo
+66;Gabito Ballesteros
+67;Uriel Lozano
+68;Lyanno
+69;Boza
+70;j mena
+71;JÃ¸tta
+72;Engel Montaz
+73;Brray
+74;Bruno Marcelo
+75;Riky Produce
+76;EL MURCIELAGO
+77;Kevin Martes 13
+78;Alex Krack
+79;Romeo Santos
+80;JHAYCO
+81;Abel Pintos
+82;Panda Black
+83;Lasso
+84;Kali Uchis
+85;Feid
+86;Paulo Londra
+87;No Te Va Gustar
+88;Karina
+89;Latinnites Music
+90;Blessd
+91;Kidd Voodoo
+92;Nicki Nicole
+93;Emilia
+94;Valentino Merlo
+95;LOUKI
+96;La Joaqui
+97;Chayanne
+98;Pablo Chill-E
+99;La Receta
+100;Myke Towers
+101;Harry Nach
+102;Los Ãngeles Azules
+103;Big Cvyu
+104;Lewis Somes
+105;Grupo Frontera
+106;Nanpa BÃ¡sico
+107;Mr. Naisgai
+108;Callejero Fino
+109;FMK
+110;Yami Safdie
+111;"KIO ""El Historiador"""
+112;Mateo on the Beatz
+113;Pinky SD
+114;Fran C
+115;Pirlo
+116;Renzo ED
+117;Yan Block
+118;El Bogueto
+119;Rauw Alejandro
+120;Bimbo el Oso MaÃ±oso
+121;Anitta
+122;Fuerza Regida
+123;Aventura
+124;Hoppen
+125;Joel The B
+126;Laura Pausini
+127;Hernan y La Champion's Liga
+128;Big One
+129;Luis R Conriquez
+130;Alexis y Fido
+131;Sossa
+132;Chino Pacas
+133;Clave Especial
+134;Armenta
+135;Bad Bunny
+136;Bhavi
+137;La Arrolladora Banda El LimÃ³n De Rene Camacho
+138;DJ Acres
+139;Kapo
+140;YSY A
+141;Pailita
+142;Maluma
+143;Jairo Vera
+144;Duki
+145;Mora
+146;Ryan Castro
+147;Big Metra
+148;Grupo Firme
+149;Dalmata
+150;KHEA
+151;De La Rose
+152;Cardenales De Nuevo LeÃ³n
+153;Frankie Ruiz
+154;Rich Ibra
+155;Uriel Gaxiola
+156;J Balvin
+157;La Dinastia
+158;Dimension Latina
+159;Plan B
+160;NEMJ
+161;Tego CalderÃ³n
+162;Ke Personajes
+163;Dysbit
+164;Santaferia
+165;Tiago PZK
+166;La T y La M
+167;Uzielito Mix
+168;KAROL G
+169;Miguel Bueno
+170;Rayo & Toby
+171;Bayron Fire
+172;Bellakath
+173;El Malilla
+174;Pereiraremix
+175;Malandro
+176;El Jordan 23
+177;Becky G
+178;Nes
+179;King Savagge
+180;DobleP
+181;Maisak
+182;Grupo ZÃºmbale Primo
+183;Haze
+184;Ayra Starr
+185;Emanero
+186;Vyse
+187;elaggume
+188;El Mago Y La Nueva
+189;Babasonicos
+190;Kris R.
+191;W Sound
+192;Trueno
+193;Jasiel NuÃ±ez
+194;Danny Ocean
+195;Yandel
+196;Camilo
+197;DJ Tao
+198;ROSÃ‰
+199;Leonardo Aguilar
+200;La K'onga
+201;Junior H
+202;ONIKX
+203;Yeri Mua
+204;Sevdaliza
+205;Heredero
+206;DFZM
+207;JuliÃ³n Ãlvarez y su NorteÃ±o Banda
+208;Luigi 21 Plus
+209;Peso Pluma
+210;SOG
+211;Mariah Carey
+212;Q' Lokura
+213;Waldokinc El Troyano
+214;Los Turros
+215;Alfredo Olivas
+216;FloyyMenor
+217;Estevan Plazola
+218;Vicente FernÃ¡ndez
+219;Salastkbron
+220;Chris Jonex
+221;Tito Double P
