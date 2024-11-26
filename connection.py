@@ -20,13 +20,13 @@ try:
     #Asignación de las consultas a variables
 
     # Consulta 1: Impacto de atributos musicales en el éxito.
-    t_consulta1 = "SELECT c.nombre AS cancion, r.pais_codigo, r.ranking_diario, r.movimiento_diario, r.movimiento_semanal, c.danceability, c.energy, c.tempo FROM Rankings r JOIN Canciones c ON r.spotify_id = c.spotify_id WHERE r.movimiento_diario IS NOT NULL AND r.movimiento_diario > 0 OR r.movimiento_semanal IS NOT NULL AND r.movimiento_semanal > 0 ORDER BY r.movimiento_diario DESC, r.movimiento_semanal DESC;"
+    t_consulta1 = "SELECT c.spotify_id, c.nombre AS cancion, c.danceability, c.energy, c.valence, c.tempo, MIN(r.ranking_diario) AS mejor_ranking FROM Canciones c JOIN Rankings r ON c.spotify_id = r.spotify_id GROUP BY c.spotify_id, c.nombre, c.danceability, c.energy, c.valence, c.tempo HAVING MIN(r.ranking_diario) <= 10 ORDER BY mejor_ranking ASC;"
     # Consulta 2: Canciones más populares por artista.
-    t_consulta2 = "SELECT c.nombre AS cancion, p.nombre AS pais, MAX(r.ranking_diario) AS mejor_posicion, COUNT(r.fecha_snapshot) AS veces_en_ranking FROM Rankings r JOIN Canciones c ON r.spotify_id = c.spotify_id JOIN Paises p ON r.pais_codigo = p.pais_codigo GROUP BY c.nombre, p.nombre ORDER BY veces_en_ranking DESC, mejor_posicion ASC;"
+    t_consulta2 = "SELECT a.nombre AS artista, c.nombre AS cancion, MIN(r.ranking_diario) AS mejor_posicion FROM Artistas a JOIN Cancion_Artista ca ON a.artista_id = ca.artista_id JOIN Canciones c ON ca.spotify_id = c.spotify_id JOIN Rankings r ON c.spotify_id = r.spotify_id GROUP BY a.nombre, c.nombre ORDER BY mejor_posicion ASC, a.nombre;"
     # Consulta 3: Tendencias temporales de popularidad.
-    t_consulta3 = "SELECT p.nombre AS pais, c.nombre AS cancion, AVG(r.ranking_diario) AS promedio_ranking, MAX(r.movimiento_diario) AS max_movimiento_diario, MAX(r.movimiento_semanal) AS max_movimiento_semanal, AVG(c.danceability) AS promedio_danceability, AVG(c.energy) AS promedio_energy, AVG(c.tempo) AS promedio_tempo FROM Rankings r JOIN Canciones c ON r.spotify_id = c.spotify_id JOIN Paises p ON r.pais_codigo = p.pais_codigo GROUP BY p.nombre, c.nombre ORDER BY promedio_ranking ASC, max_movimiento_diario DESC;"
+    t_consulta3 = "SELECT c.nombre AS cancion, s.fecha_snapshot, AVG(r.ranking_diario) AS promedio_ranking FROM Canciones c JOIN Rankings r ON c.spotify_id = r.spotify_id JOIN Snapshots s ON r.fecha_snapshot = s.fecha_snapshot GROUP BY c.nombre, s.fecha_snapshot ORDER BY c.nombre, s.fecha_snapshot;"
     # Consulta 4: Diversidad musical y número de artistas por país.
-    t_consulta4 = "SELECT p.nombre AS pais, AVG(c.energy) AS promedio_energy, AVG(c.danceability) AS promedio_danceability, AVG(c.tempo) AS promedio_tempo, COUNT(DISTINCT r.spotify_id) AS cantidad_canciones FROM Rankings r JOIN Canciones c ON r.spotify_id = c.spotify_id JOIN Paises p ON r.pais_codigo = p.pais_codigo GROUP BY p.nombre ORDER BY cantidad_canciones DESC;"
+    t_consulta4 = "SELECT p.nombre AS pais, COUNT(DISTINCT a.artista_id) AS cantidad_artistas, AVG(c.acousticness) AS promedio_acousticness, AVG(c.instrumentalness) AS promedio_instrumentalness, STDDEV(c.danceability) AS desviacion_danceability, STDDEV(c.energy) AS desviacion_energy FROM Rankings r JOIN Canciones c ON r.spotify_id = c.spotify_id JOIN Paises p ON r.pais_codigo = p.pais_codigo JOIN Cancion_Artista ca ON c.spotify_id = ca.spotify_id JOIN Artistas a ON ca.artista_id = a.artista_id GROUP BY p.nombre ORDER BY cantidad_artistas DESC, p.nombre;"
 
     # Tabla Albumes
     cursor = connection.cursor()
