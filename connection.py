@@ -19,13 +19,13 @@ try:
 
     #Asignación de las consultas a variables
 
-    # Consulta 1: Relación entre atributos y cambios en el ranking
+    # Consulta 1: Impacto de atributos musicales en el éxito.
     t_consulta1 = "SELECT c.nombre AS cancion, r.pais_codigo, r.ranking_diario, r.movimiento_diario, r.movimiento_semanal, c.danceability, c.energy, c.tempo FROM Rankings r JOIN Canciones c ON r.spotify_id = c.spotify_id WHERE r.movimiento_diario IS NOT NULL AND r.movimiento_diario > 0 OR r.movimiento_semanal IS NOT NULL AND r.movimiento_semanal > 0 ORDER BY r.movimiento_diario DESC, r.movimiento_semanal DESC;"
-    # Consulta 2: Canciones con mayor longevidad y mejor posición
+    # Consulta 2: Canciones más populares por artista.
     t_consulta2 = "SELECT c.nombre AS cancion, p.nombre AS pais, MAX(r.ranking_diario) AS mejor_posicion, COUNT(r.fecha_snapshot) AS veces_en_ranking FROM Rankings r JOIN Canciones c ON r.spotify_id = c.spotify_id JOIN Paises p ON r.pais_codigo = p.pais_codigo GROUP BY c.nombre, p.nombre ORDER BY veces_en_ranking DESC, mejor_posicion ASC;"
-    # Consulta 3: Popularidad de canciones por país y análisis de atributos
+    # Consulta 3: Tendencias temporales de popularidad.
     t_consulta3 = "SELECT p.nombre AS pais, c.nombre AS cancion, AVG(r.ranking_diario) AS promedio_ranking, MAX(r.movimiento_diario) AS max_movimiento_diario, MAX(r.movimiento_semanal) AS max_movimiento_semanal, AVG(c.danceability) AS promedio_danceability, AVG(c.energy) AS promedio_energy, AVG(c.tempo) AS promedio_tempo FROM Rankings r JOIN Canciones c ON r.spotify_id = c.spotify_id JOIN Paises p ON r.pais_codigo = p.pais_codigo GROUP BY p.nombre, c.nombre ORDER BY promedio_ranking ASC, max_movimiento_diario DESC;"
-    # Consulta 4: Factores que afectan la diversidad musical por país.
+    # Consulta 4: Diversidad musical y número de artistas por país.
     t_consulta4 = "SELECT p.nombre AS pais, AVG(c.energy) AS promedio_energy, AVG(c.danceability) AS promedio_danceability, AVG(c.tempo) AS promedio_tempo, COUNT(DISTINCT r.spotify_id) AS cantidad_canciones FROM Rankings r JOIN Canciones c ON r.spotify_id = c.spotify_id JOIN Paises p ON r.pais_codigo = p.pais_codigo GROUP BY p.nombre ORDER BY cantidad_canciones DESC;"
 
     # Tabla Albumes
@@ -126,7 +126,6 @@ try:
     for row in rows:
         print(row)
     print("\n")
-    
 
 # Manejo de errores
 except Exception as error:
