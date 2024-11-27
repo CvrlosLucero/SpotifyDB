@@ -7,8 +7,8 @@ import plotly.express as px
 # Configuración de la base de datos
 DB_HOST = 'localhost'
 DB_USER = 'postgres'
-DB_PASSWORD = '123456789'
-DB_NAME = 'postgres'
+DB_PASSWORD = '2I@@`7ao*3}*'
+DB_NAME = 'proyecto'
 
 # Conexión a la base de datos
 def get_connection():
