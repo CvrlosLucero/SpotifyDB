@@ -131,10 +131,9 @@ app.layout = html.Div([
                         html.Ul([
                             html.Li("""
                                 Muchos géneros "raqueados", como el rock, el punk o el metal, tienen una fuerte carga simbólica relacionada con la rebeldía, la independencia y el desafío a las normas establecidas. Esta música se asocia con movimientos juveniles que buscan expresar frustraciones o descontento hacia la sociedad, la política o las expectativas tradicionales. Es un medio para liberar emociones reprimidas, especialmente en un contexto de cambios culturales o políticos.
-                            """),# TODO: carlos
+                            """),
                             html.Li(""" 
-                                Se observa que las canciones que alcanzaron el Top 10 tienen características musicales similares, 
-                                lo que podría indicar tendencias comunes en el gusto del público.
+                                El gráfico muestra el mejor ranking obtenido por diferentes canciones, lo que sugiere una variabilidad significativa en el desempeño individual de cada una. Algunas canciones se posicionan consistentemente cerca de la cima, mientras que otras ocupan rangos más bajos, lo que podría estar influenciado por factores como la popularidad del artista, el estilo musical o el contexto del lanzamiento. Las canciones con mejor ranking podrían haber sido impulsadas por estrategias de marketing más efectivas, colaboraciones destacadas o un fuerte impacto cultural. Un análisis más detallado sería necesario para identificar patrones específicos o factores determinantes detrás de estas diferencias en desempeño.
                             """),
                         ]),
                     ]),
@@ -169,10 +168,9 @@ app.layout = html.Div([
                         html.Ul([
                             html.Li("""
                                 La prevalencia de artistas de reguetón y música urbana en las primeras posiciones del gráfico sugiere una clara tendencia hacia estos géneros en la preferencia del público. Esto podría deberse a diversos factores como: Mayor producción y consumo,Conexión con el público, Competencia entre artistas
-                            """), # TODO: carlos
+                            """), 
                             html.Li("""
-                                Los artistas con canciones en las mejores posiciones suelen estar asociados con géneros populares o 
-                                tienen una base de fans amplia que impulsa su popularidad en los rankings.
+                                El éxito de Bad Bunny frente a Manuel Turizo puede atribuirse a varios factores clave. Su discografía incluye álbumes globalmente exitosos, apoyados por colaboraciones estratégicas con artistas de renombre como Drake y Rosalía, lo que amplía su alcance. Además, utiliza estrategias de marketing innovadoras, como lanzamientos sorpresa y fuerte interacción en redes sociales, que fortalecen su conexión con los fans. También lanza música de forma constante y en momentos estratégicos, maximizando su impacto en el mercado. Por su parte, aunque Manuel Turizo tiene éxitos notables, su alcance parece ser más localizado, con estrategias y colaboraciones que, aunque efectivas, tienen menor impacto global.
                             """),
                         ]),
                     ]),
@@ -211,11 +209,9 @@ app.layout = html.Div([
                         html.Ul([
                             html.Li("""
                                 la canción con línea morada experimenta una disminución constante en su ranking, indicando una pérdida gradual de popularidad. La canción con línea roja, por otro lado, mantiene un ranking relativamente estable durante la mayor parte del periodo, con una ligera disminución al final. En contraste, la canción con línea verde muestra un aumento gradual en su ranking, lo que sugiere un crecimiento en su popularidad. Las demás canciones presentan patrones mixtos, con algunas fluctuaciones en su ranking promedio, reflejando tanto subidas como bajadas en su desempeño.
-                            """),# TODO: carlos
+                            """),
                             html.Li("""
-                                Canciones con picos de popularidad: Otras canciones muestran incrementos significativos 
-                                en popularidad en momentos específicos, lo que puede estar asociado a eventos promocionales 
-                                o tendencias sociales.
+                                El gráfico indica una disminución general en la popularidad de las canciones durante el período analizado, reflejando una tendencia negativa en su recepción o relevancia. Sin embargo, las variaciones individuales observadas sugieren que no todas las canciones siguen este patrón de manera uniforme, lo que pone de manifiesto la influencia de factores particulares en el éxito de cada una. Estos factores podrían incluir elementos como el género musical, las estrategias de promoción, la presencia en plataformas de streaming o el contexto cultural en el momento de su lanzamiento. Para entender completamente estas dinámicas, sería esencial un análisis más profundo que incorpore tanto variables externas, como eventos sociales o cambios en las preferencias del público, como las características intrínsecas de cada canción, como su composición, letra o popularidad inicial. Esto permitiría identificar con mayor precisión los elementos determinantes en el comportamiento observado.
                             """),
                         ]),
                     ]),
@@ -250,10 +246,9 @@ app.layout = html.Div([
                         html.Ul([
                             html.Li("""
                                 Ecuador se destaca como el país con el mayor número de artistas, lo cual podría explicarse por un mayor apoyo a la industria musical, mayor penetración de plataformas digitales que facilitan la difusión de la música ecuatoriana y una escena musical más activa y diversa. Por otro lado, Argentina, Chile y Colombia presentan números similares de artistas, lo que sugiere una escena musical regionalmente homogénea, influenciada por factores culturales, económicos y geográficos comunes. En cuanto a Costa Rica y México, aunque son países con una importante industria musical, su representación en los datos es menor. Esto podría deberse a criterios de selección que favorecieron a ciertos países o géneros, o a que la muestra de datos es limitada y no refleja completamente la industria musical en estos países.
-                            """),# TODO: carlos
+                            """),
                             html.Li("""
-                                Relación entre diversidad y atributos musicales: La variación en atributos como danceability y energy 
-                                puede estar influenciada por la cantidad y diversidad de artistas en cada país, mostrando patrones culturales únicos.
+                                Los resultados de este análisis pueden impactar significativamente en la industria musical, las políticas culturales y las estrategias de marketing. Por ejemplo, podrían ser útiles para identificar mercados emergentes en países con un creciente número de artistas, lo que señalaría oportunidades para expandir la industria musical. Además, permitirían a empresas discográficas y plataformas de streaming diseñar estrategias de promoción más personalizadas y efectivas, logrando conectar con un público más amplio y diverso. Asimismo, al analizar las similitudes y diferencias entre las escenas musicales de distintas regiones, se podría fomentar la colaboración entre artistas, dando lugar a nuevos proyectos creativos que enriquezcan el panorama musical global.
                             """),
                         ]),
                     ]),
