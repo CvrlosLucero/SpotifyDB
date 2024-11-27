@@ -135,6 +135,10 @@ app.layout = html.Div([
                             html.Li(""" 
                                 El gráfico muestra el mejor ranking obtenido por diferentes canciones, lo que sugiere una variabilidad significativa en el desempeño individual de cada una. Algunas canciones se posicionan consistentemente cerca de la cima, mientras que otras ocupan rangos más bajos, lo que podría estar influenciado por factores como la popularidad del artista, el estilo musical o el contexto del lanzamiento. Las canciones con mejor ranking podrían haber sido impulsadas por estrategias de marketing más efectivas, colaboraciones destacadas o un fuerte impacto cultural. Un análisis más detallado sería necesario para identificar patrones específicos o factores determinantes detrás de estas diferencias en desempeño.
                             """),
+                            html.Li("""
+                                Ventajas: Clara visualización del ranking: Fácil de comparar el rendimiento de las canciones en los rankings. Simplicidad: La gráfica de barras es intuitiva y ampliamente entendida. Rápida identificación: Muestra de manera directa qué canciones tienen un mejor desempeño.
+                                Desventajas: Limitada a un rango de canciones: Si el número de canciones es grande, puede volverse saturada y difícil de leer.
+                            """),
                         ]),
                     ]),
                 ]
@@ -171,6 +175,10 @@ app.layout = html.Div([
                             """), 
                             html.Li("""
                                 El éxito de Bad Bunny frente a Manuel Turizo puede atribuirse a varios factores clave. Su discografía incluye álbumes globalmente exitosos, apoyados por colaboraciones estratégicas con artistas de renombre como Drake y Rosalía, lo que amplía su alcance. Además, utiliza estrategias de marketing innovadoras, como lanzamientos sorpresa y fuerte interacción en redes sociales, que fortalecen su conexión con los fans. También lanza música de forma constante y en momentos estratégicos, maximizando su impacto en el mercado. Por su parte, aunque Manuel Turizo tiene éxitos notables, su alcance parece ser más localizado, con estrategias y colaboraciones que, aunque efectivas, tienen menor impacto global.
+                            """),
+                            html.Li("""
+                                Ventajas: Agrupación por artista: Permite ver la contribución de cada canción al éxito general de los artistas. Colores diferenciados: Ayuda a distinguir múltiples canciones de un mismo artista.
+                                Desventajas: Complejidad visual: Si hay muchos artistas o canciones, puede resultar confuso. Espacio limitado: En gráficos con muchos datos, los nombres pueden superponerse.
                             """),
                         ]),
                     ]),
@@ -213,6 +221,10 @@ app.layout = html.Div([
                             html.Li("""
                                 El gráfico indica una disminución general en la popularidad de las canciones durante el período analizado, reflejando una tendencia negativa en su recepción o relevancia. Sin embargo, las variaciones individuales observadas sugieren que no todas las canciones siguen este patrón de manera uniforme, lo que pone de manifiesto la influencia de factores particulares en el éxito de cada una. Estos factores podrían incluir elementos como el género musical, las estrategias de promoción, la presencia en plataformas de streaming o el contexto cultural en el momento de su lanzamiento. Para entender completamente estas dinámicas, sería esencial un análisis más profundo que incorpore tanto variables externas, como eventos sociales o cambios en las preferencias del público, como las características intrínsecas de cada canción, como su composición, letra o popularidad inicial. Esto permitiría identificar con mayor precisión los elementos determinantes en el comportamiento observado.
                             """),
+                             html.Li("""
+                                Ventajas: Contexto temporal: Proporciona una visión clara de las tendencias de popularidad. Comparación dinámica: Muestra cambios en popularidad entre varias canciones de manera simultánea. Detecta patrones: Permite identificar picos o caídas en popularidad.
+                                Desventajas: Superposición de líneas: Si hay muchas canciones, las líneas pueden superponerse, dificultando la interpretación Rango limitado: No se pueden observar detalles específicos de las canciones en ciertos momentos.
+                            """),
                         ]),
                     ]),
                 ]
@@ -249,6 +261,10 @@ app.layout = html.Div([
                             """),
                             html.Li("""
                                 Los resultados de este análisis pueden impactar significativamente en la industria musical, las políticas culturales y las estrategias de marketing. Por ejemplo, podrían ser útiles para identificar mercados emergentes en países con un creciente número de artistas, lo que señalaría oportunidades para expandir la industria musical. Además, permitirían a empresas discográficas y plataformas de streaming diseñar estrategias de promoción más personalizadas y efectivas, logrando conectar con un público más amplio y diverso. Asimismo, al analizar las similitudes y diferencias entre las escenas musicales de distintas regiones, se podría fomentar la colaboración entre artistas, dando lugar a nuevos proyectos creativos que enriquezcan el panorama musical global.
+                            """),
+                            html.Li("""
+                                Ventajas: Comparación geográfica: Facilita el análisis de diversidad musical entre países.Claridad: Ideal para mostrar conteos y promedios.
+                                Desventajas: Información limitada: No se muestra variación dentro de los países (como diferencias entre artistas o géneros). Desviación en escala: Países con menos artistas pueden no ser representados claramente.
                             """),
                         ]),
                     ]),
